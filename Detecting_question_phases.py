@@ -24,7 +24,7 @@ def is_word_present(sentence,word):
 s= " 'Hello how are you doing' ,'My Name is joe',' I am going to home'"
 word = "'how','what,'when','whome' "
 
-if (is_word_present(s,word)):
+if (is_word_present(sentence,word)):
     print("Yes")
 else:
     print("No")
